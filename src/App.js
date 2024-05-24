@@ -5,7 +5,7 @@ import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavorites from './components/AddFavorites';
-import RemoveFavourites from './components/RemoveFavourites';
+import RemoveFavourites from './componnents/RemoveFavourites';
 //App Component 
 const App= ()=>{
   
