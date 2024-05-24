@@ -18,7 +18,7 @@ const App= ()=>{
 
 // Define an asynchronous function to fetch movie data from the OMDB API
 const getMovieRequest= async (searchValue) => {
-    const url= `http://www.omdbapi.com/?s=${searchValue}&apikey=8432d70a`;
+    const url= `https://www.omdbapi.com/?s=${searchValue}&apikey=8432d70a`;
 
     // Use the fetch API to make a request to the URL and wait for the response
     const response= await fetch(url);
